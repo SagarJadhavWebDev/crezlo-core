@@ -27,7 +27,7 @@ module.exports = __toCommonJS(index_exports);
 // src/home.tsx
 var import_jsx_runtime = require("react/jsx-runtime");
 function Home() {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: "Hello" });
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: "Hello Crezlo" });
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
