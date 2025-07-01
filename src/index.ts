@@ -1,3 +1,3 @@
-import home from "./home";
-
-export { home };
+import "./styles/style.css"
+import Home from "./Home";
+export { Home };

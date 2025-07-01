@@ -2,18 +2,16 @@
   "name": "crezlo",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "module": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
-    "build": "rm -rf dist && tsup src/index.ts --dts --format cjs --out-dir dist",
-    "dev": "rm -rf dist && tsup src/index.ts --watch"
+    "build": "rm -rf dist && tsup "
   },
   "peerDependencies": {
     "react": "^19.1.0"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "description": "",
@@ -24,6 +22,9 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "react-dom": "^19.1.0"
+    "@tailwindcss/postcss": "^4.1.11",
+    "postcss": "^8.5.6",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.11"
   }
 }
