@@ -1,7 +1,7 @@
 
 export default function Home() {
   const handleLocalStorage = ()=>{
-    console.log('from pacakge', getCookie('auth'))
+    console.log('from pacakge', getCookie('auth'));
     localStorage.setItem('test','1msadncmsd23');
   }
   function getCookie(name:string) {
