@@ -1,3 +1,4 @@
+'use client'
 export default function Home() {
   function getCookie(name: string) {
     console.log('getCookie1')
